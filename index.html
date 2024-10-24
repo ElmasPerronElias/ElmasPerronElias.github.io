@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="img/1.jpg" type="image/x-icon">
 
     <title>Amortización y Capitalización</title>
@@ -18,6 +20,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%; /* Asegura que la tabla ocupe el 100% del ancho */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.video {
+    max-width: 100%; /* Limita el tamaño de los videos al ancho de la pantalla */
+    height: auto; /* Mantiene la proporción del video */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5em; /* Ajusta el tamaño de los encabezados en pantallas pequeñas */
+    }
 }
 
 
